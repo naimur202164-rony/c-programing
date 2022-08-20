@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-int main(){
-    for(int i=0;i<5;i++){
-        printf("i love Allah\n");
-    }
-}
+int main (){
+    printf("Hello World");
+}   
