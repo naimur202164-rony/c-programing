@@ -1,14 +1,14 @@
-// Usese of for loop
+#include <stdio.h>
+int main()
+{
 
-
-
-int main(){
     int n;
+    int sum = 0;
+    scanf("%d/n", &n);
+    for (int i = 0; i < n; i++)
+    {
+        sum = sum + i;
+    }
 
-scanf("%d\n",&n);
-
-printf("%d",n);
-    
+    printf("Final sum is %d\n", sum);
 }
-
-
